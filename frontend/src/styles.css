@@ -7,5 +7,14 @@
 }
 
 body {
-  @apply bg-gray-50 text-gray-800 antialiased;
+  @apply text-gray-800 antialiased bg-white;
+}
+
+html.dark body {
+  @apply text-gray-100 bg-gray-950;
+}
+
+/* Subtle container max width helpers */
+.container-xl {
+  @apply mx-auto max-w-7xl px-6;
 } 

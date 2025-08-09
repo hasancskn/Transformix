@@ -14,6 +14,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     poppler-utils \
     imagemagick \
     wkhtmltopdf \
+    qpdf \
     curl \
     unzip \
     ca-certificates \
